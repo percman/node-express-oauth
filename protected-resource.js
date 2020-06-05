@@ -56,7 +56,6 @@ app.get("/user-info", (req, res) => {
         permissions.push(scope.slice(11));
       });
 
-      console.log(permissions);
       let response = {};
 
       permissions.forEach((permission) => {
